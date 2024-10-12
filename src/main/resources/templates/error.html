@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>Error</h2>
+    <div class="alert alert-danger" th:text="${errorMessage}"></div>
+    <a href="/api/users" class="btn btn-primary">Back to User List</a>
+</div>
+</body>
+</html>
